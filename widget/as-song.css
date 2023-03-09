@@ -1,0 +1,23 @@
+.as-song-container .oo-ui-comboBoxInputWidget {
+	width: 500px; /* 完整显示现最长的歌曲名称 */
+	max-width: 100%;
+	margin-right: 0;
+	display: block;
+}
+.as-song-container .fa-backspace {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 3em;
+	cursor: pointer;
+	line-height: 2; /* 更容易点击 */
+}
+.as-song-container .oo-ui-menuOptionWidget {
+	padding-left: 0.85714286em;
+}
+.as-song-container > div {
+	display: inline-block; /* 居中 */
+}
+.as-song-container .as-song, .as-song .zh, .as-song .en {
+	display: none;
+}
